@@ -1,3 +1,4 @@
+"use strict";
 var avengers = 5;
 var villanos;
 var otros = 2;

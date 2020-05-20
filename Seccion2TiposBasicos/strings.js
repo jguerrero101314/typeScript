@@ -1,3 +1,4 @@
+"use strict";
 var batman = "batman";
 var linternaVerde = "Linterna verde";
 var volcanNegro = "Volcan negro";

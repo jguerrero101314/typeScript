@@ -1,3 +1,4 @@
+"use strict";
 var Volumen;
 (function (Volumen) {
     Volumen[Volumen["min"] = 1] = "min";
