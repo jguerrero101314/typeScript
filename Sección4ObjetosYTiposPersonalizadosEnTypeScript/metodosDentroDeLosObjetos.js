@@ -7,4 +7,11 @@ var flash2 = {
         return this.nombre;
     }
 };
-flash.getNombre();
+var superman2 = {
+    nombre: "CLark Kent",
+    edad: 500,
+    poderes: ["Puede volar", "Super velocidad"],
+    getNombre: function () {
+        return this.nombre;
+    }
+};

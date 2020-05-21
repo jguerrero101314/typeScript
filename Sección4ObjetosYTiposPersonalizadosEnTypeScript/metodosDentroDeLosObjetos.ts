@@ -9,4 +9,11 @@ let flash2:{nombre:string, edad:number, poderes:String[], getNombre:()=>string} 
   }
 };
 
-flash.getNombre();
+let superman2:{nombre:string, edad:number, poderes:String[], getNombre:()=>string} = {
+  nombre:"CLark Kent",
+  edad:500,
+  poderes:["Puede volar", "Super velocidad"],
+  getNombre(){
+    return this.nombre;
+  }
+};
