@@ -1,4 +1,7 @@
 "use strict";
+/*!
+Esto es un comentario multilinea
+*/
 var edad = 30;
 var heroe = "Ricardo Tapia (Robin)";
 var mensaje = imprimir(heroe, edad);
