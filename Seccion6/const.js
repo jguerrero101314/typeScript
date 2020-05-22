@@ -1,3 +1,4 @@
+"use strict";
 // const OPCIONES:string = "Activo";
 // if(true){
 //     const OPCIONES:string =  "Desactivado";

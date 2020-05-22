@@ -1,3 +1,4 @@
+"use strict";
 var nombre2 = "bruce";
 var nombre3 = 'ricardo';
 function getNombres() {
