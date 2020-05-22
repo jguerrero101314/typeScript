@@ -3,5 +3,5 @@ let avengers1 = {
     ironman1: "Robert Downey Jr",
     vision: "Paul Bettany"
 }
-let { nick, ironman1, vision, thor="Paulino Callejas" } = avengers1;
+let { nick, ironman1, vision } = avengers1;
 console.log(nick + " \n" + ironman1 + " \n" + vision);
