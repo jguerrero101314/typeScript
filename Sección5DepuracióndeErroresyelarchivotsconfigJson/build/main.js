@@ -2,9 +2,9 @@
 /*!
 Esto es un comentario multilinea
 */
-var edad = 30;
-var heroe = "Ricardo Tapia (Robin)";
-var mensaje = imprimir(heroe, edad);
+let edad = 30;
+let heroe = "Ricardo Tapia (Robin)";
+let mensaje = imprimir(heroe, edad);
 console.log(mensaje);
 function imprimir(heroe, edad) {
     heroe = heroe.toLowerCase();
@@ -12,4 +12,8 @@ function imprimir(heroe, edad) {
     return heroe + " " + edad;
 }
 console.log("hola mundo");
+let heroes = ["Batman", "Superman", "Robin"];
+for (let heroe of heroes) {
+    console.log(heroe);
+}
 //# sourceMappingURL=main.js.map
