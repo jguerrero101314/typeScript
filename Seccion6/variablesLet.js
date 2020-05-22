@@ -1,8 +1,9 @@
-var nombre = "Tony";
+"use strict";
+var nombre1 = "Tony";
 if (true) {
-    var nombre_1 = "Bruce";
+    var nombre1_1 = "Bruce";
     if (true) {
-        var nombre_2 = "Ricardo";
+        var nombre1_2 = "Ricardo";
     }
 }
 console.log(nombre);
