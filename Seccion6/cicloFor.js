@@ -1,3 +1,4 @@
+"use strict";
 var thor = {
     nombre: "Thor",
     arma: "Mjolnir"
@@ -12,8 +13,8 @@ var capitanAmerica = {
 };
 var avengers_ = [thor, ironMan1, capitanAmerica];
 for (var _i = 0, avengers_1 = avengers_; _i < avengers_1.length; _i++) {
-    var avengers = avengers_1[_i];
-    console.log(avengers.nombre, avengers.arma);
+    var avengers_2 = avengers_1[_i];
+    console.log(avengers_2.nombre, avengers_2.arma);
 }
 // for (let i in avengers_){
 //     let avengers = avengers_[i];
