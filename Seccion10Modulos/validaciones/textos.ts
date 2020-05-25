@@ -1,7 +1,10 @@
-const MENSAJES:string[] = [
+ const MENSAJES:string[] = [
   "El texto es muy corto",
   "El texto es muy largo"
 ];
-function obtenerError(numError:number):string{
+export function obtenerError(numError:number):string{
+  if(numError > MENSAJES.length){
+    return " el codigo de error no existe"
+  }
   return MENSAJES[numError];
 }
