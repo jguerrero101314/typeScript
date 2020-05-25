@@ -1,24 +1,8 @@
 //nameSpace.ts
-
-namespace Validaciones{
- export  function validarTexto(texto:string):boolean{
-    if(texto.length > 3){
-      return true;
-    }
-    return false;
-  }
-
-  export function validarFecha(fecha:Date):boolean{
-    if(isNaN(fecha.valueOf())){
-      return false;
-    }
-    return true;
-  }
+//<reference path="validaciones/texto.ts"/>
+//<reference path="validaciones/fechas.ts"/>
+if(Validaciones.validarTexto("Joel")){
+  console.log("el texto es valido");
+}else{
+  console.log("el texto no es valido");
 }
-
-
-let hoy = new Date();
-console.log(
- Validaciones.validarFecha(hoy),
- Validaciones.validarTexto("Joel")
-);

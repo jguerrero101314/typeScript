@@ -1,4 +1,3 @@
-"use strict";
 //nameSpace.ts
 //<reference path="validaciones/texto.ts"/>
 //<reference path="validaciones/fechas.ts"/>
