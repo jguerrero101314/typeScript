@@ -22,7 +22,7 @@ var Avenger6 = /** @class */ (function () {
             console.log("Se llamo el set del nombre");
             this._nombre = nombre;
         },
-        enumerable: false,
+        enumerable: true,
         configurable: true
     });
     return Avenger6;
