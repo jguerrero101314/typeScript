@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.Validaciones = void 0;
 var Validaciones;
 (function (Validaciones) {
     function validarTexto(texto) {
